@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(160, 255, 250), rgb(174, 255, 112));
+}
+
+.inner-box {
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffff09;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #205e87;
+    z-index: 2;
+}
+
+.signup-header h1 {
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signup-header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.signup-body {
+    /* border: 1px solid red ; */
+    margin: 20px 0px;
+}
+
+.signup-body p {
+    margin: 15px 5px;
+}
+
+.signup-body p label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.signup-body p input {
+    width: 90%;
+    padding: 6px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.signup-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+}
+
+.signup-body p input[type="submit"]:hover {
+    background-color: #205e87;
+    cursor: pointer;
+}
+
+.signup-footer p {
+    color: #555;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.signup-footer p a {
+    color: #205e87;
+}
+
+.circle {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ffffff55, #ffffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 100px;
+    left: 150px;
+}
+
+.c2 {
+    bottom: 100px;
+    right: 100px;
+}
